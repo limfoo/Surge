@@ -41,6 +41,10 @@
 
 #  其他
 
+海底捞
+# 打开APP 然后手动签到 1 次
+海底捞 = type=cron,cronexp=25 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js,script-update-interval=0
+
 # > 奈雪 (By @zZPiglet)
 # 进入"奈雪点单"小程序，若弹出"首次写入奈雪の茶 Token 成功"
 奈雪 =type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js,wake-system=1
